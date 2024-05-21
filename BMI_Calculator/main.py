@@ -3,6 +3,7 @@ from tkinter import *
 window = Tk()
 window.minsize(600,400)
 window.title("BMI CALCULATOR")
+window.config(padx=30,pady=30)
 person_BMI_info = 0
 # for creating label
 def create_label(text):
